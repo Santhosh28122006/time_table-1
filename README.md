@@ -24,6 +24,8 @@ Execute the program using runserver command.
 
 # PROGRAM
 '''
+
+
 views.py
 
 from http.server import BaseHTTPRequestHandler, HTTPServer
@@ -200,6 +202,10 @@ urlpatterns = [
     # path('home/',template.slot),
     path('server/',MyServer.as_view())
 ]
+
+
+
+'''
 
 # OUTPUT
 ![Screenshot 2024-12-07 112406](https://github.com/user-attachments/assets/77e69afe-ec94-4619-a4ea-f57e662d26ef)
