@@ -23,7 +23,7 @@ Add your timetable using `<td>` tag.
 Execute the program using runserver command.
 
 # PROGRAM
-'''
+```
 
 
 views.py
@@ -205,7 +205,7 @@ urlpatterns = [
 
 
 
-'''
+```
 
 # OUTPUT
 ![Screenshot 2024-12-07 112406](https://github.com/user-attachments/assets/77e69afe-ec94-4619-a4ea-f57e662d26ef)
